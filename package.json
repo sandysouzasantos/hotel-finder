@@ -1,0 +1,35 @@
+{
+  "name": "hotel-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check-types": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts $FILE",
+    "start": "ts-node src/index.ts $FILE",
+    "test": "mocha -r ts-node/register tests/**/*.test.ts",
+    "coverage": "nyc --reporter=text -e .ts -x \"*.test.ts\" npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/chai": "^4.2.4",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.5",
+    "@types/simple-mock": "^0.8.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4",
+    "nyc": "^14.1.1",
+    "simple-mock": "^0.8.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
