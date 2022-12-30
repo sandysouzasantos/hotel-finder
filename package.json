@@ -25,7 +25,7 @@
     "@types/node": "^12.12.5",
     "@types/simple-mock": "^0.8.1",
     "chai": "^4.2.0",
-    "mocha": "^6.2.2",
+    "mocha": "^10.2.0",
     "nodemon": "^1.19.4",
     "nyc": "^14.1.1",
     "simple-mock": "^0.8.0",
